@@ -1,0 +1,217 @@
+/* Main layout and header */
+body {
+background: #eaeaea; 
+font:76% Verdana,Tahoma,Arial,sans-serif; 
+line-height:1.4em; 
+margin:0 auto; 
+padding:0;
+}
+
+#wrap {
+background:#fff; 
+margin:20px auto; 
+padding:1px 12px; 
+width:760px; 
+border: 2px solid #999999;
+}
+
+#header {
+background:#337199; 
+height:40px; 
+margin:15px 0 10px; 
+padding:0; 
+}
+
+/* Left menu */
+#navigtabs {
+clear:left; 
+float:left; 
+margin:15px 0 10px; 
+padding:0; 
+width:150px;
+}
+
+#navigtabs ul.menu {
+list-style:none; 
+margin:0 0 18px; 
+padding:0; 
+width:150px;
+}
+
+#navigtabs ul.menu li {
+display:inline; 
+padding:0; 
+width:150px;
+}
+
+#navigtabs ul.menu li a {
+background:#EBEBEB;
+border-bottom:1px solid #d8d8d8; 
+border-left:4px solid #ccc; 
+border-right:1px solid #d8d8d8; 
+border-top:1px solid #d8d8d8; 
+color:#505050; 
+float:left; 
+font-size:1em; 
+font-weight:700; 
+margin-bottom:5px; 
+padding:5px 1px 5px 5px; 
+text-decoration:none; 
+width:138px;
+}
+
+#navigtabs ul.menu li a:hover,#navigtabs ul.menu li a.current {
+background:#DFDFDF;
+border-bottom:1px solid #b0b0b0; 
+border-left:4px solid #505050; 
+border-right:1px solid #b0b0b0; 
+border-top:1px solid #b0b0b0; 
+color:#505050;
+}
+
+#navigtabs ul.menu ul {
+font-size:0.9em; 
+margin:0 0 0 15px; 
+padding:0 0 5px 0; 
+width:133px;
+}
+
+#navigtabs ul.menu ul a {
+padding:3px 1px 3px 5px; 
+width:123px;
+}
+
+
+/* Main content */
+#content {
+line-height:1.5em; 
+margin:10px 170px 40px 170px; 
+padding:0; 
+text-align:left; 
+min-height:240px;
+}
+
+#contentwide {
+line-height:1.5em; 
+margin:0px 20px 10px 170px; 
+padding:0; 
+text-align:left; 
+min-height:240px;
+}
+
+#contentwidehome {
+line-height:1.5em; 
+margin:10px 10px 10px 170px; 
+padding:0; 
+text-align:left; 
+min-height:310px;
+}
+
+#content h1,#contentwide h1 {
+font-size:2em; 
+font-weight:600; 
+letter-spacing:-1px; 
+margin:20px 0 10px; 
+padding:0;
+}
+
+#content h2,#contentwide h2,#contentwidehome h2 {
+font-size:1.8em; 
+font-weight:400; 
+letter-spacing:-1px; 
+margin:25px 0 25px; 
+padding:0;
+}
+
+
+#pagetitle {
+float: left;
+text-align: left;
+width: 380px;
+}
+
+#biotext {
+float: left;
+text-align: left;
+width: 380px;
+min-height: 135px;
+}
+
+#biotext_nopic {
+float: left;
+text-align: left;
+width: 380px;
+min-height: 0px;
+}
+
+#biophoto {
+float: right;
+text-align: right;
+width: 150px;
+margin: 0px 10px 0 0;
+}
+
+
+/* Footer */
+#footer {
+background:#337199;
+height: 20px
+clear:both; color:#666; 
+font-size:0.9em; 
+margin:0 auto; 
+padding:8px 0; 
+width:760px;
+}
+
+
+/* Links and paragraphs */
+a {
+background:inherit; 
+color:#336699;
+text-decoration:none; 
+font-weight:700;
+}
+
+a:hover {
+background:inherit; 
+color:#286ea0; 
+text-decoration:underline;
+}
+
+a img {
+border:0;
+}
+
+p {
+margin:0 0 16px;
+}
+
+
+/* Additional classes */
+.logo {
+float: left; 
+margin: 0 0 0 150px;
+}
+
+.main-img {
+float: right; 
+margin: 0 0 0 30px;
+}
+
+.about-img {
+float: right; 
+margin: 0 0 80px 45px;
+}
+
+.copy {
+font-size:0.8em; 
+margin:10px 0 4px 170px; 
+}
+
+
+/* force right scrollbar */
+html { 
+overflow-y: scroll;
+}
+
+
