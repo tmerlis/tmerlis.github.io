@@ -85,7 +85,7 @@ width:143px;
 /* Main content */
 #content {
 line-height:1.5em; 
-margin:10px 170px 40px 170px; 
+margin:10px 170px 40px 180px; 
 padding:0; 
 text-align:left; 
 min-height:240px;
@@ -93,7 +93,7 @@ min-height:240px;
 
 #contentwide {
 line-height:1.5em; 
-margin:0px 20px 10px 170px; 
+margin:0px 20px 10px 180px; 
 padding:0; 
 text-align:left; 
 min-height:240px;
@@ -101,7 +101,7 @@ min-height:240px;
 
 #contentwidehome {
 line-height:1.5em; 
-margin:10px 10px 10px 170px; 
+margin:10px 10px 10px 180px; 
 padding:0; 
 text-align:left; 
 min-height:310px;
