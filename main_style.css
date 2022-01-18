@@ -57,7 +57,7 @@ font-weight:700;
 margin-bottom:5px; 
 padding:5px 1px 5px 5px; 
 text-decoration:none; 
-width:138px;
+width:148px;
 }
 
 #navigtabs ul.menu li a:hover,#navigtabs ul.menu li a.current {
@@ -73,12 +73,12 @@ color:#505050;
 font-size:0.9em; 
 margin:0 0 0 15px; 
 padding:0 0 5px 0; 
-width:133px;
+width:143px;
 }
 
 #navigtabs ul.menu ul a {
 padding:3px 1px 3px 5px; 
-width:123px;
+width:133px;
 }
 
 
